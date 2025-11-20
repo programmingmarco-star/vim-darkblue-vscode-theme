@@ -2,6 +2,10 @@
 
 A dark blue color theme for Visual Studio Code, ported from the classic VIM Darkblue theme in Eclipse.
 
+## Screenshot
+
+![VIM Darkblue Theme Screenshot](screenshot.png)
+
 ## Features
 
 - Deep blue background (#000040) that's easy on the eyes
