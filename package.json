@@ -1,0 +1,22 @@
+{
+     "name": "vim-darkblue",
+     "displayName": "VIM Darkblue Theme",
+     "description": "VIM Darkblue color theme ported from Eclipse",
+     "version": "1.0.0",
+     "publisher": "local",
+     "engines": {
+       "vscode": "^1.0.0"
+     },
+     "categories": [
+       "Themes"
+     ],
+     "contributes": {
+       "themes": [
+         {
+           "label": "VIM Darkblue",
+           "uiTheme": "vs-dark",
+           "path": "./vim-darkblue-theme.json"
+         }
+       ]
+     }
+   }

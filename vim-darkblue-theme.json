@@ -1,0 +1,157 @@
+{
+  "name": "VIM Darkblue",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000040",
+    "editor.foreground": "#D0D0D0",
+    "editor.lineHighlightBackground": "#000060",
+    "editor.selectionBackground": "#A0B0EE",
+    "editor.selectionForeground": "#FFFFFF",
+    "editor.findMatchBackground": "#006080",
+    "editor.findMatchHighlightBackground": "#606080",
+    "editor.wordHighlightBackground": "#0000AA",
+    "editor.wordHighlightStrongBackground": "#0000AA",
+    "editorLineNumber.foreground": "#90F020",
+    "editorBracketMatch.background": "#00000000",
+    "editorBracketMatch.border": "#D0D0D0"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#80A0FF"
+      }
+    },
+    {
+      "name": "String",
+      "scope": [
+        "string",
+        "string.quoted"
+      ],
+      "settings": {
+        "foreground": "#FFA0A0"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": [
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#FFFFBB"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#FFFF60"
+      }
+    },
+    {
+      "name": "Operator",
+      "scope": [
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#D0D0D0"
+      }
+    },
+    {
+      "name": "Class",
+      "scope": [
+        "entity.name.type.class",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#60FF60"
+      }
+    },
+    {
+      "name": "Function",
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#AAFFAA"
+      }
+    },
+    {
+      "name": "Function Declaration",
+      "scope": [
+        "meta.function",
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#BED6FF"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": [
+        "variable",
+        "variable.other"
+      ],
+      "settings": {
+        "foreground": "#40FFFF"
+      }
+    },
+    {
+      "name": "Variable Declaration",
+      "scope": [
+        "variable.parameter",
+        "meta.definition.variable"
+      ],
+      "settings": {
+        "foreground": "#BED6FF"
+      }
+    },
+    {
+      "name": "Parameter",
+      "scope": [
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#79ABFF"
+      }
+    },
+    {
+      "name": "Constant",
+      "scope": [
+        "constant",
+        "variable.other.constant"
+      ],
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "name": "Decorator",
+      "scope": [
+        "meta.function.decorator",
+        "entity.name.function.decorator"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Docstring",
+      "scope": [
+        "string.quoted.docstring"
+      ],
+      "settings": {
+        "foreground": "#CCDF32"
+      }
+    }
+  ]
+}
